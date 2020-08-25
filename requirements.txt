@@ -1,0 +1,10 @@
+# Library dependencies for the infinitybatch project
+# You have to install these libraries, before you can run the code:
+# 'pip install -r requirements.txt'
+
+# Standard library dependencies:
+# random
+python>=3.5
+
+# Additional library dependencies
+pytorch>=1.6.0
