@@ -8,7 +8,7 @@ Infinitybatch is an open source solution for PyTorch that helps deep learning de
 
 The core concept of the idea comes from the fact that GPU time is expensive and the usage of own GPU cluster or a cloud based GPU service has to be optimized to be cost efficient. Furthermore, developers and researchers regularly have limited access to GPU. However, CPU based training mostly allows higher batches than a normal GPU could provide, it is much slower. Infinitybatch helps to use GPU during training with bigger batch size thanks to the special unloading and uploading process that manages the GPU RAM to avoid memory overrun.
 
-[![infinitybatch](https://img.url)](https://video.url)
+[![infinitybatch](https://github.com/hyperrixel/infinitybatch/blob/master/assets/video.png "infinitybatch")](https://youtu.be/9pl63pW2OMI)
 
 ## How it works?
 
@@ -16,11 +16,11 @@ There are two main use cases. One is a Keras-like training manager where just th
 
 ### Workflow
 
-[![infinitybatch - workflow](https://github.com/hyperrixel/infinitybatch/blob/master/assets/workflow.png "workflow")]
+![infinitybatch - workflow](https://github.com/hyperrixel/infinitybatch/blob/master/assets/workflow.png "workflow")
 
 ### Dataflow
 
-[![infinitybatch - dataflow](https://github.com/hyperrixel/infinitybatch/blob/master/assets/dataflow.png "dataflow")]
+![infinitybatch - dataflow](https://github.com/hyperrixel/infinitybatch/blob/master/assets/dataflow.png "dataflow")
 
 ## How to use?
 
