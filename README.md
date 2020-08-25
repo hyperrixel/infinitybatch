@@ -4,8 +4,7 @@
 
 ## What is this?
 
-Infinitybatch is an open source solution for PyTorch that helps deep learning developers to train with bigger batch size than it could be loaded into GPU RAM.
-
+Infinitybatch is an open source solution for PyTorch that helps deep learning developers to train with bigger batch size than it could be loaded into GPU RAM through a normal PyTorch train loop.
 The core concept of the idea comes from the fact that GPU time is expensive and the usage of own GPU cluster or a cloud based GPU service has to be optimized to be cost efficient. Furthermore, developers and researchers regularly have limited access to GPU. However, CPU based training mostly allows higher batches than a normal GPU could provide, it is much slower. Infinitybatch helps to use GPU during training with bigger batch size thanks to the special unloading and uploading process that manages the GPU RAM to avoid memory overrun.
 
 [![infinitybatch](https://github.com/hyperrixel/infinitybatch/blob/master/assets/video.png "infinitybatch")](https://youtu.be/9pl63pW2OMI)
